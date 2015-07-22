@@ -1,0 +1,87 @@
+* {
+	margin: auto;
+}
+
+
+/**********************
+		Header		 
+***********************/
+
+header {
+	width: 800px;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.header_logo {
+	width: auto;
+	display: inline-block;
+}
+
+nav {
+	width: 500px;
+	display: inline-block;
+	margin-top: 10px;
+	float: right;
+	font-family: 'Trebuchet MS', Arial, sans-serif; 
+	font-size: 15px;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+	padding: 5px 5px 5px 5px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:hover {
+	text-decoration: none;
+	color: purple;
+}
+
+/**********************
+		Business		 
+***********************/
+
+#business {
+	width: 800px;
+	height: 50px;
+	background-color: red;
+}
+
+/**********************
+		Rates		 
+***********************/
+
+#rates {
+	width: 800px;
+	height: 50px;
+	background-color: yellow;
+}
+
+
+/**********************
+		Contact		 
+***********************/
+
+#contact {
+	width: 800px;
+	height: 50px;
+	background-color: purple;
+}
+
+
+/**********************
+		Footer		 
+***********************/
+
+footer {
+	width: 800px;
+	height: 50px;
+	background-color: gray;
+}

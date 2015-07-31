@@ -5,36 +5,99 @@
 <header>
 <meta charset="utf-8">
 <title>À votre service | AVS</title>
+<link rel="stylesheet" href="bootstrap.css">
 <link rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+<script language="javascript" type="text/javascript" src="bootstrap.js"></script>
 </header>
 
 <body>
 
-<header>
-	<div class="header_logo">
-		<img src="images/logo_avs.png" alt="Logo | AVS">
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://avs-pro.fr">
+      	<img src="images/logo_avs.png" alt="Logo - À votre service">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right main-menu">
+        <li><a href="http://avs-pro.fr">Accueil</a></li>
+        <li><a href="#">Qui sommes-nous ?</a></li>
+        <li><a href="#">Prestations</a></li>
+		<li><a href="#">Tarifs</a></li>
+        <li><a href="#">Contact</a></li>        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="header-background col-md-12">
+			<div class="col-md-4 col-md-offset-4 header-call">
+				<div class="call"><p>Détendez-vous</p> <p>AVS s'occupe de tout !</p>
+				<p class="btn btn-danger action">Découvrez nos prestations</p></div>
+			</div>
+		</div>
 	</div>
-	<nav>
-		<ul>
-			<li><a href="http://avs-pro.fr">Accueil</a></li> |
-			<li><a href="http://avs-pro.fr/qui-sommes-nous">Qui sommes-nous ?</a></li> |
-			<li><a href="http://avs-pro.fr/tarifs">Tarifs/Simulateur</a></li> |
-			<li><a href="http://avs-pro.fr/contact">Contact</a></li>
-		</ul>
-	</nav>
-</header>
-
-<div id="business">
 </div>
 
-<div id="rates">
+<div class="container business">
+	<div class="row">
+		<div class="business-content col-md-3">
+      <img class="img-responsive" src="images/business-menage.png">
+      <h2>Ménage</h2>      
+      <ul>
+        <li>Nettoyage des sols</li>
+        <li>Dépoussièrage des surfaces</li>
+        <li>Sanitaires</li>
+        <li><a class="btn btn-success" href="">+ d'infos</a></li>
+      </ul>
+    </div>
+		
+    <div class="business-content col-md-3">
+      <img class="img-responsive" src="images/business-repassage.png">
+      <h2>Repassage</h2>      
+      <ul>
+        <li>Repassage du linge</li>
+        <li><a class="btn btn-success" href="">+ d'infos</a></li>
+      </ul>
+    </div>
+		
+    <div class="business-content col-md-3">
+      <img class="img-responsive" src="images/business-jardinage.png">
+      <h2>Jardinage</h2>      
+      <ul>
+        <li>Entretien des massifs</li>
+        <li>Tonte et entretien des gazons</li>
+        <li>Taille d'arbustes, de rosiers, de haies,...</li>
+        <li><a class="btn btn-success" href="">+ d'infos</a></li>
+      </ul>
+    </div>
+		
+    <div class="business-content col-md-3">
+      <img class="img-responsive" src="images/business-bricolage.png">
+      <h2>Bricolage</h2>
+      <ul>
+        <li>Petits travaux de bricolage</li>
+        <li>Petit déménagement</li>
+        <li>Aide au bricolage</li>
+        <li><a class="btn btn-success" href="">+ d'infos</a></li>
+      </ul>
+    </div>
+	</div>
 </div>
-
-<div id="contact">
-</div>
-
-<footer>
-</footer>	
 
 </body>
 

@@ -103,6 +103,13 @@ a:hover {
 	background-color: #F8F9F2;
 }
 
+.img-business {
+	width: 200px;
+	margin: auto;
+	border-radius: 50%;
+	border: #880EA0 solid 10px;
+}
+
 .business h2 {
 	font-family: "Lato",Helvetica,sans-serif;
 	font-size: 35px;
@@ -141,6 +148,11 @@ a:hover {
 	padding-bottom: 10px;
 }
 
+.img-prices {
+	width: 194px;
+	margin: auto;
+}
+
 .prices h2 {
 	font-family: "Lato",Helvetica,sans-serif;
 	font-size: 35px;
@@ -156,6 +168,15 @@ a:hover {
 	font-weight: 400;
 	color: #444;
 	text-align: center;
+}
+
+.prices-text {
+	text-align: justify;
+}
+
+.img-reduction-impots {
+	width: 100px;
+	margin: auto;
 }
 
 /* Homepage : Section Contact */

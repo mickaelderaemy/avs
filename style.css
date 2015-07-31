@@ -54,7 +54,7 @@ a:hover {
 	text-transform: uppercase;
 	padding: 5px 0px 5px 0px;
 	margin: 10px 15px 5px 15px;
-	font-size: 18px;
+	font-size: 16px;
 	color: #666;
 }
 
@@ -68,7 +68,7 @@ a:hover {
 
 .header-background {
 	height: 600px;
-	background: url(images/test.jpg) no-repeat center center; 
+	background: url(images/test2.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .header-call {
-	margin-top: 60px;
+	margin-top: 50px;
 }
 
 .call {
@@ -88,6 +88,13 @@ a:hover {
 	padding: 20px 10px 20px 10px;
 	text-align: center;
 	border-radius: 15px;
+}
+
+.header-subtitle {
+	font-family: "Lato",Helvetica,sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: white;
 }
 
 .action {
@@ -107,7 +114,11 @@ a:hover {
 	width: 200px;
 	margin: auto;
 	border-radius: 50%;
-	border: #880EA0 solid 10px;
+	border: #880EA0 solid 5px;
+}
+
+.img-business:hover {
+	border: #DE6A10 solid 5px;
 }
 
 .business h2 {
@@ -148,11 +159,6 @@ a:hover {
 	padding-bottom: 10px;
 }
 
-.img-prices {
-	width: 194px;
-	margin: auto;
-}
-
 .prices h2 {
 	font-family: "Lato",Helvetica,sans-serif;
 	font-size: 35px;
@@ -172,6 +178,17 @@ a:hover {
 
 .prices-text {
 	text-align: justify;
+}
+
+.prices-action {
+	text-align: center;
+	padding-top: 15px; 
+	padding-bottom: 15px;
+}
+
+.img-prices {
+	width: 194px;
+	margin: auto;
 }
 
 .img-reduction-impots {
@@ -214,20 +231,26 @@ a:hover {
 	text-align: justify;
 } 
 
+.img-map {
+	margin: auto;
+}
+
 /* Footer */
 .footer {
 	background-color: #444444;
 	color: white;
 	font-family: "Lato",Helvetica,sans-serif;
-	font-weight: 300;
+	font-weight: 200;
 	font-size: 16px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	text-align: center;
 }
 
 .footer a {
 	color: white;
+	font-size: 14px;
+	font-weight: 300;
 }
 
 .footer a:hover {

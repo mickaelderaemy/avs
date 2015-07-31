@@ -10,7 +10,7 @@ body {
 
 .btn-avs {
 	font-family: "Lato",Helvetica,sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 300;
 	background-color: #880EA0;
 	color: white;
@@ -79,12 +79,26 @@ a:hover {
 	margin-top: 50px;
 }
 
+.header-call-avs-grey {
+	font-family: "Lato",Helvetica,sans-serif;
+	font-size: 55px;
+	font-weight: 700;
+	color: #555;
+}
+
+.header-call-avs-purple {
+	font-family: "Lato",Helvetica,sans-serif;
+	font-size: 55px;
+	font-weight: 700;
+	color: #890e96;
+}
+
 .call {
 	color: white;
 	height: 120px;
 	font-family: 'Sofia';
 	font-weight: 300; 
-	font-size: 40px;
+	font-size: 45px;
 	padding: 20px 10px 20px 10px;
 	text-align: center;
 	border-radius: 15px;
@@ -94,12 +108,12 @@ a:hover {
 	font-family: "Lato",Helvetica,sans-serif;
 	font-size: 18px;
 	font-weight: 300;
-	color: white;
+	color: #444;
 }
 
 .action {
 	margin-top: 20px;
-	font-family: 'Roboto Condensed';
+	font-family: "Lato",Helvetica,sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 }

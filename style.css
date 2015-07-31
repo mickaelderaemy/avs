@@ -65,9 +65,48 @@
 }
 
 .business h2 {
+	font-size: 25px;
+	text-align: center;
+}
+
+.business-content h3 {
 	font-size: 20px;
 	text-align: center;
 }
 
-.business-content {
+/* Homepage : Section Prices */
+.prices {
+	margin-top: 20px;
+}
+
+.prices h2 {
+	font-size: 25px;
+	text-align: center;
+}
+
+.prices h3 {
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Homepage : Section Contact */
+.contact {
+	margin-top: 20px;
+}
+
+.contact h2 {
+	font-size: 25px;
+	text-align: center;
+}
+
+.contact h3 {
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Footer */
+.footer {
+	margin-top: 20px;
+	background-color: #DCDCDC;
+	text-align: center;
 }

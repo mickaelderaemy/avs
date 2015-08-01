@@ -5,43 +5,17 @@
 <header>
 <meta charset="utf-8">
 <title>À votre service | AVS</title>
-<link rel="stylesheet" href="bootstrap.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
-<script language="javascript" type="text/javascript" src="bootstrap.js"></script>
+<script language="javascript" type="text/javascript" src="js/bootstrap.js"></script>
 </header>
 
 <body>
 
-<nav class="navbar navbar-default">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="http://avs-pro.fr">
-      	<img class="img-responsive" src="images/logo_avs.png" alt="Logo - À votre service">
-      </a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right main-menu">
-        <li><a href="http://avs-pro.fr">Accueil</a></li>
-        <li><a href="http://avs-pro.fr/qui-sommes-nous.html">Qui sommes-nous ?</a></li>
-        <li><a href="http://avs-pro.fr/prestations.html">Prestations</a></li>
-		    <li><a href="http://avs-pro.fr/tarifs.html">Tarifs</a></li>
-        <li><a href="http://avs-pro.fr/contact.html">Contact</a></li>        
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container -->
-</nav>
+<?php include("header.php"); ?>
 
 <div class="container-fluid">
 	<div class="row">

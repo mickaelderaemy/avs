@@ -50,6 +50,11 @@ h3 {
 	color: #880E95;
 }
 
+@font-face {
+    font-family: "Androgyne_TB";
+    src: url(../fonts/Androgyne_TB.otf) format("truetype");
+}
+
 /****************************
 		Homepage
 *****************************/
@@ -97,14 +102,12 @@ h3 {
 }
 
 .header-call-avs-grey {
-	font-family: "Lato",Helvetica,sans-serif;
 	font-size: 55px;
 	font-weight: 700;
-	color: white;
+	color: #cdcdcd;
 }
 
 .header-call-avs-purple {
-	font-family: "Lato",Helvetica,sans-serif;
 	font-size: 55px;
 	font-weight: 700;
 	color: #890e96;
@@ -113,7 +116,7 @@ h3 {
 .call {
 	color: white;
 	height: 120px;
-	font-family: 'Sofia';
+	font-family: 'Androgyne_TB', arial, sans-serif;
 	font-weight: 300; 
 	font-size: 45px;
 	padding: 20px 10px 20px 10px;
@@ -121,24 +124,18 @@ h3 {
 	border-radius: 15px;
 }
 
-.header-subtitle {
-	font-family: "Lato",Helvetica,sans-serif;
-	font-size: 18px;
-	font-weight: 300;
-	color: #444;
-}
-
 .action {
 	margin-top: 20px;
-	font-family: "Lato",Helvetica,sans-serif;
-	font-size: 20px;
-	font-weight: 300;
+	font-family: "Open Sans", arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 
 /* Homepage : Section Business */
 .business {
 	background-color: #F8F9F2;
+	text-align: center;
 }
 
 .img-business {
@@ -152,28 +149,11 @@ h3 {
 	border: #DE6A10 solid 5px;
 }
 
-.business h2 {
-	font-family: "Lato",Helvetica,sans-serif;
-	font-size: 35px;
-	font-weight: 300;
-	color: #880E95;
-	padding-bottom: 10px;
-	text-align: center;
-}
-
 .business-content {
 	font-family: "Lato",Helvetica,sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	color: #666;
-}
-
-.business-content h3 {
-	font-family: "Lato",Helvetica,sans-serif;
-	font-size: 24px;
-	font-weight: 400;
-	color: #444;
-	text-align: center;
 }
 
 .business-content a {
@@ -191,9 +171,14 @@ h3 {
 	padding-bottom: 20px;
 }
 
+.business-more-action {
+	font-size: 20px;
+}
+
 /* Homepage : Section Prices */
 .prices {
 	padding-bottom: 10px;
+	text-align: center;
 }
 
 .prices-text {
@@ -224,6 +209,7 @@ h3 {
 	font-size: 16px;
 	font-weight: 300;
 	color: #666;
+	text-align: center;
 }
 
 .contact-numbers {
@@ -242,8 +228,7 @@ h3 {
 .footer {
 	background-color: #444444;
 	color: white;
-	font-family: "Lato",Helvetica,sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	font-size: 16px;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -314,6 +299,10 @@ h3 {
 	text-align: justify;
 }
 
+.benefits-intro h2, h3 {
+	text-align: center;
+}
+
 .benefits-btn {
 	text-align: center;
 }
@@ -344,4 +333,8 @@ h3 {
 
 .prices-specific {
 	font-size: 14px;
+}
+
+.prices-quotation {
+	padding-bottom: 20px;
 }

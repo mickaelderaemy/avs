@@ -50,13 +50,11 @@
 <div class="container">
 	<div class="row prices-title">
 		<div class="col-md-6 col-md-offset-3">
-			<br>
 			<h2>Grille des tarifs 2015</h2>
 		</div>
 	</div><!--Row-->
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<br>
 			<table class="table table-responsive table-bordered prices-table">
 			  <tr class="warning">
 			  	<th></th>
@@ -87,7 +85,7 @@
 
 <!-- Quotation section -->
 <div class="container">
-	<div class="row prices-title">
+	<div class="row prices-title prices-quotation">
 		<div class="col-md-6 col-md-offset-3">
 			<h2>Devis gratuit</h2>
 			<p>Vous êtes intéressé par une ou plusieurs de nos prestations ? <br>N'hésitez pas à nous contacter pour obtenir un devis gratuit.</p>

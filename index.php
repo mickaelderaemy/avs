@@ -11,7 +11,6 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-<script language="javascript" type="text/javascript" src="js/bootstrap.js"></script>
 </header>
 
 <body>
@@ -53,8 +52,7 @@
   <div class="row business-more">
     <div class="col-md-6 col-md-offset-3">
       <h4>Envie d'en savoir plus sur nos prestations ?</h4> 
-      <p>Venez découvrir en détails les services que nous vous proposons.</p>
-      <a class="btn btn-avs" href="/prestations.php">Découvrir les prestations</a>
+      <a class="business-more-action" href="/prestations.php">Découvrir les prestations en détails</a>
     </div>
   </div>
 </div>
@@ -102,6 +100,8 @@
 
 <?php include("footer.php"); ?>
 
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 
 

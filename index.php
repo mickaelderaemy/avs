@@ -10,6 +10,7 @@
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <script language="javascript" type="text/javascript" src="js/bootstrap.js"></script>
 </header>
 
@@ -23,7 +24,7 @@
 			<div class="col-md-6 col-md-offset-3 header-call">
 				<div class="call">
           <p>Détendez-vous<br><span class="header-call-avs-grey">A</span><span class="header-call-avs-purple">V</span><span class="header-call-avs-grey">S</span> <br>s'occupe de tout !</p>
-				  <a href="http://avs-pro.fr/prestations.html" class="btn btn-avs action">Découvrez nos prestations</a>
+				  <a href="http://avs-pro.fr/prestations.php" class="btn btn-avs action">Découvrez nos prestations</a>
         </div>
 			</div>
 		</div>
@@ -49,7 +50,7 @@
       <h3>Repassage</h3>      
       <ul>
         <li>Repassage du linge</li>
-        <li><a href="http://avs-pro.fr/prestations.html">+ d'infos</a></li>
+        <li><a href="http://avs-pro.fr/prestations.php">+ d'infos</a></li>
       </ul>
     </div>
 		
@@ -60,7 +61,7 @@
         <li>Entretien des massifs</li>
         <li>Tonte et entretien des gazons</li>
         <li>Taille d'arbustes, de rosiers,...</li>
-        <li><a href="http://avs-pro.fr/prestations.html">+ d'infos</a></li>
+        <li><a href="http://avs-pro.fr/prestations.php">+ d'infos</a></li>
       </ul>
     </div>
 		
@@ -71,7 +72,7 @@
         <li>Petits travaux de bricolage</li>
         <li>Petit déménagement</li>
         <li>Aide au bricolage</li>
-        <li><a href="http://avs-pro.fr/prestations.html">+ d'infos</a></li>
+        <li><a href="http://avs-pro.fr/prestations.php">+ d'infos</a></li>
       </ul>
     </div>
 	</div>
@@ -94,7 +95,7 @@
         </p>
     </div>
     <div class="col-md-12 prices-action">
-            <a class="btn btn-avs" href="http://avs-pro.fr/tarifs">Découvrir les tarifs</a> 
+            <a class="btn btn-avs" href="http://avs-pro.fr/tarifs.php">Découvrir les tarifs</a> 
     </div>
   </div>
 </div>
@@ -118,14 +119,7 @@
   </div>
 </div>
 
-<div class="container-fluid footer">
-  <div class="row">
-    <div class="col-md-12">
-      <a href="">Mentions Légales</a> |
-      <a href="">Copyright</a>
-    </div>
-  </div>
-</div>
+<?php include("footer.php"); ?>
 
 </body>
 

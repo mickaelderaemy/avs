@@ -3,14 +3,14 @@
 *****************************/
 body {
 	font-family: "Lato",Helvetica,sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 	color: #666;
 }
 
 .btn-avs {
 	font-family: "Lato",Helvetica,sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 	background-color: #880EA0;
 	color: white;
@@ -67,8 +67,8 @@ a:hover {
 }
 
 .header-background {
-	height: 600px;
-	background: url(../images/test2.jpg) no-repeat center center; 
+	height: 560px;
+	background: url(../images/grass5.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -76,14 +76,14 @@ a:hover {
 }
 
 .header-call {
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .header-call-avs-grey {
 	font-family: "Lato",Helvetica,sans-serif;
 	font-size: 55px;
 	font-weight: 700;
-	color: #555;
+	color: white;
 }
 
 .header-call-avs-purple {
@@ -270,4 +270,88 @@ a:hover {
 .footer a:hover {
 	color: #DE6A10;
 	text-decoration: none;
+}
+
+/****************************
+		Who
+*****************************/
+.who {
+	text-align: justify;
+}
+
+.who-title {
+	height: 100px;
+	padding-top: 10px;
+	background-color: #7F2788;
+	text-align: center;
+}
+
+.who-title h2 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	color: white;
+}
+
+.who-content {
+	background-color: #F8F9F2;
+}
+
+.who-content-p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.who-title-section {
+	text-align: center;
+}
+
+.who-call {
+	text-align: center;
+	margin-top: 25px;	
+	margin-bottom: 25px;
+}
+
+/****************************
+		Page : Benefits
+*****************************/
+.benefits {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.benefits-link {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.benefits-intro {
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.benefits-intro h2 {
+	font-family: "Lato",Helvetica,sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	color: #880E95;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.benefits h3 {
+	font-family: "Lato",Helvetica,sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	color: #880E95;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.benefits-btn {
+	text-align: center;
+}
+
+.benefits-background {
+	background-color: #F8F9F2;
 }

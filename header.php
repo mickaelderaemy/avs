@@ -17,10 +17,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right main-menu">
         <li><a href="http://avs-pro.fr">Accueil</a></li>
-        <li><a href="http://avs-pro.fr/qui-sommes-nous.html">Qui sommes-nous ?</a></li>
-        <li><a href="http://avs-pro.fr/prestations.html">Prestations</a></li>
-		    <li><a href="http://avs-pro.fr/tarifs.html">Tarifs</a></li>
-        <li><a href="http://avs-pro.fr/contact.html">Contact</a></li>        
+        <li><a href="http://avs-pro.fr/qui-sommes-nous.php">Qui sommes-nous ?</a></li>
+        <li><a href="http://avs-pro.fr/prestations.php">Prestations</a></li>
+		    <li><a href="http://avs-pro.fr/tarifs.php">Tarifs</a></li>
+        <li><a href="http://avs-pro.fr/contact.php">Contact</a></li>        
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->

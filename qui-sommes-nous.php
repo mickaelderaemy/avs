@@ -28,10 +28,10 @@
 <div class="who-content">
 	<div class="container who">
 		<div class="row who-content-p">
-			<div class="col-md-5">
+			<div class="col-md-4 col-md-offset-1">
 				<img class="img-responsive" src="images/home.jpg">
 			</div>
-			<div class="col-md-7">
+			<div class="col-md-6">
 				<h3>Notre objectif : Vous aider dans votre quotidien</h3>
 				<h4>Entreprise de services à la personne</h4>
 				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>

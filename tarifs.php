@@ -31,7 +31,7 @@
 <div class="container-fluid">
 	<div class="row prices-title">
 		<div class="col-md-6 col-md-offset-3">
-			<h2>Un tarif unique !</h2>
+			<h2>Tarif unique</h2>
 		</div>
 	</div><!--Row-->
 </div><!--Container-->
@@ -41,7 +41,7 @@
 			<img class="img-responsive img-prices" src="images/prices.png">
 		</div>
 		<div class="col-md-6">
-			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p>Afin de simplifier les calculs, AVS vous propose une sélection de tarifs uniques. Ces tarifs comprennent la prestation ainsi que les frais pour la réaliser. N'hésitez pas à <a href="/contact.php">nous contacter</a> pour toutes informations ou si vous avez une demande spécifique.</p>
 		</div>
 	</div><!--Row-->
 </div><!--Container-->
@@ -50,13 +50,15 @@
 <div class="container">
 	<div class="row prices-title">
 		<div class="col-md-6 col-md-offset-3">
-			<h2>Nos tarifs</h2>
+			<br>
+			<h2>Grille des tarifs 2015</h2>
 		</div>
 	</div><!--Row-->
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
+			<br>
 			<table class="table table-responsive table-bordered prices-table">
-			  <tr>
+			  <tr class="warning">
 			  	<th></th>
 			    <th>Ménage</th>
 			    <th>Bricolage</th>
@@ -79,6 +81,17 @@
 			  </tr>
 			</table>
 			<p class="prices-specific">* Tarif pour les prestations spécifiques (vitres, véranda, terrasse, cave,...</p> 
+		</div>
+	</div><!--Row-->
+</div><!--Container-->
+
+<!-- Quotation section -->
+<div class="container">
+	<div class="row prices-title">
+		<div class="col-md-6 col-md-offset-3">
+			<h2>Devis gratuit</h2>
+			<p>Vous êtes intéressé par une ou plusieurs de nos prestations ? <br>N'hésitez pas à nous contacter pour obtenir un devis gratuit.</p>
+			<a class="btn btn-avs" href="/contact.php">Devis gratuit</a>
 		</div>
 	</div><!--Row-->
 </div><!--Container-->

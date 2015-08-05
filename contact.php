@@ -22,7 +22,7 @@
 <div class="container-fluid who">
 	<div class="row who-title">
 		<div class="col-md-12">
-			<h2>Contact</h2>
+			<h1>Contact</h1>
 		</div>
 	</div>
 </div>

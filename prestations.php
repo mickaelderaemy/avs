@@ -22,7 +22,7 @@
 <div class="container-fluid who">
 	<div class="row who-title">
 		<div class="col-md-12">
-			<h2>Prestations</h2>
+			<h1>Prestations</h1>
 		</div>
 	</div>
 </div> <!--Container-->

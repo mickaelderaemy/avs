@@ -21,7 +21,7 @@
 <div class="container-fluid who">
 	<div class="row who-title">
 		<div class="col-md-12">
-			<h2>Qui sommes-nous ?</h2>
+			<h1>Qui sommes-nous ?</h1>
 		</div>
 	</div>
 </div>
@@ -29,11 +29,10 @@
 	<div class="container who">
 		<div class="row who-content-p">
 			<div class="col-md-4 col-md-offset-1">
-				<img class="img-responsive" src="images/home.jpg">
+				<img class="img-responsive" src="images/household.jpg">
 			</div>
 			<div class="col-md-6">
-				<h3>Notre objectif : Vous aider dans votre quotidien</h3>
-				<h4>Entreprise de services à la personne</h4>
+				<h2>Notre historique</h2>
 				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 			</div>
 		</div>
@@ -41,35 +40,36 @@
 </div>
 <div class="container who">
 	<div class="col-md-12 who-title-section">
-		<h3>Titre seconde section</h3>
+		<h2>Comment ça fonctionne ?</h2>
 	</div>
 	<div class="row">
-		<div class="col-md-5 col-md-offset-1">
-			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		<div class="col-md-2 col-md-offset-1">
+			<img class="img-responsive" src="images/step1.png">
 		</div>
-		<div class="col-md-5">
-			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		<div class="col-md-8">
+			<h3>1. Étude de vos besoins & Établissement d'un devis personnalisé</h3>
+			<p>"quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 		</div>
-	</div>
-		<div class="col-md-12 who-title-section">
-		<h3>Témoignages</h3>
 	</div>
 	<div class="row">
-		<div class="col-md-2 col-md-offset-2">
-			<p>Madame Michu<br>
-			Chartres</p>
+		<div class="col-md-2 col-md-offset-1">
+			<img class="img-responsive" src="images/step2.png">
 		</div>
-		<div class="col-md-6">
-			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-		</div>	
-		<div class="col-md-2 col-md-offset-2">
-			<p>Monsieur Patate<br>
-			Morancez</p>
-		</div>
-		<div class="col-md-6">
+		<div class="col-md-8">
+			<h3>2. Validation du devis & Prise de rendez-vous</h3>
 			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
 		</div>
-	</div>
+	</div>	
+	<div class="row">
+		<div class="col-md-2 col-md-offset-1">
+			<img class="img-responsive" src="images/step3.png">
+		</div>
+		<div class="col-md-8">
+			<h3>3. Réalisation de la prestation</h3>
+			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+		</div>
+	</div>	
+		
 	<div class="row who-call">
 		<div class="col-md-12">
 			<h4>Vous avez besoin d'un service ?</h4>

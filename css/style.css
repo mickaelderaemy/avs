@@ -2,14 +2,14 @@
 		Globals Elements
 *****************************/
 body {
-	font-family: "Lato",Helvetica,sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	color: #666;
 }
 
 .btn-avs {
-	font-family: "Lato",Helvetica,sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	background-color: #880EA0;
@@ -31,6 +31,13 @@ a:hover {
 	text-decoration: none;
 }
 
+
+h2 {
+	font-family: "Open Sans", arial, sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	color: #880E95;
+}
 
 /****************************
 		Homepage
@@ -285,6 +292,19 @@ a:hover {
 	text-align: justify;
 }
 
+.who h2 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	color: #7F2788;
+}
+
+.who h3 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+}
+
 .who-title {
 	height: 100px;
 	padding-top: 10px;
@@ -292,7 +312,7 @@ a:hover {
 	text-align: center;
 }
 
-.who-title h2 {
+.who-title h1 {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 	font-size: 35px;
@@ -318,9 +338,11 @@ a:hover {
 	margin-bottom: 25px;
 }
 
+
 /****************************
 		Page : Benefits
 *****************************/
+
 .benefits {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -337,8 +359,8 @@ a:hover {
 }
 
 .benefits-intro h2 {
-	font-family: "Lato",Helvetica,sans-serif;
-	font-size: 35px;
+	font-family: "Open Sans", arial, sans-serif;
+	font-size: 30px;
 	font-weight: 300;
 	color: #880E95;
 	padding-bottom: 10px;
@@ -346,7 +368,7 @@ a:hover {
 }
 
 .benefits h3 {
-	font-family: "Lato",Helvetica,sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	font-size: 30px;
 	font-weight: 300;
 	color: #880E95;
@@ -360,4 +382,28 @@ a:hover {
 
 .benefits-background {
 	background-color: #F8F9F2;
+}
+
+/****************************
+		Page : Benefits
+*****************************/
+
+.prices-title {
+	text-align: center;
+}
+
+.prices-table {
+	text-align: center;
+}
+
+.prices-table th {
+	text-align: center;
+}
+
+.prices-discounted {
+	color: #DE6A10;
+}
+
+.prices-specific {
+	font-size: 14px;
 }

@@ -31,51 +31,32 @@
 	</div>
 </div>
 
+<!-- Our business -->
 <div class="container-fluid business">
   <h2>Nos prestations</h2>
 	<div class="row">
-		<div class="business-content col-md-2 col-md-offset-2">
-      <img class="img-responsive img-business" src="images/business-menage.png">
+		<div class="business-content col-md-2 col-md-offset-3">
+      <a href="/prestations.php"><img class="img-responsive img-business" src="images/business-menage.png"></a>
       <h3>Ménage</h3>      
-      <ul>
-        <li>Nettoyage des sols</li>
-        <li>Dépoussièrage des surfaces</li>
-        <li>Sanitaires</li>
-        <li><a href="http://avs-pro.fr/prestations.html">+ d'infos</a></li>
-      </ul>
     </div>
 		
     <div class="business-content col-md-2">
-      <img class="img-responsive img-business" src="images/business-repassage.png">
-      <h3>Repassage</h3>      
-      <ul>
-        <li>Repassage du linge</li>
-        <li><a href="http://avs-pro.fr/prestations.php">+ d'infos</a></li>
-      </ul>
-    </div>
-		
-    <div class="business-content col-md-2">
-      <img class="img-responsive img-business" src="images/business-jardinage.png">
+      <a href="/prestations.php"><img class="img-responsive img-business" src="images/business-jardinage.png"></a>
       <h3>Jardinage</h3>      
-      <ul>
-        <li>Entretien des massifs</li>
-        <li>Tonte et entretien des gazons</li>
-        <li>Taille d'arbustes, de rosiers,...</li>
-        <li><a href="http://avs-pro.fr/prestations.php">+ d'infos</a></li>
-      </ul>
     </div>
 		
     <div class="business-content col-md-2">
-      <img class="img-responsive img-business" src="images/business-bricolage.png">
+      <a href="/prestations.php"><img class="img-responsive img-business" src="images/business-bricolage.png"></a>
       <h3>Bricolage</h3>
-      <ul>
-        <li>Petits travaux de bricolage</li>
-        <li>Petit déménagement</li>
-        <li>Aide au bricolage</li>
-        <li><a href="http://avs-pro.fr/prestations.php">+ d'infos</a></li>
-      </ul>
     </div>
 	</div>
+  <div class="row business-more">
+    <div class="col-md-6 col-md-offset-3">
+      <h4>Envie d'en savoir plus sur nos prestations ?</h4> 
+      <p>Venez découvrir en détails les services que nous vous proposons.</p>
+      <a class="btn btn-avs" href="/prestations.php">Découvrir les prestations</a>
+    </div>
+  </div>
 </div>
 
 <div class="container prices">

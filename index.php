@@ -50,8 +50,7 @@
     </div>
 	</div>
   <div class="row business-more">
-    <div class="col-md-6 col-md-offset-3">
-      <h4>Envie d'en savoir plus sur nos prestations ?</h4> 
+    <div class="col-md-6 col-md-offset-3"> 
       <a class="business-more-action" href="/prestations.php">Découvrir les prestations en détails</a>
     </div>
   </div>
@@ -74,7 +73,7 @@
         </p>
     </div>
     <div class="col-md-12 prices-action">
-            <a class="btn btn-avs" href="http://avs-pro.fr/tarifs.php">Découvrir les tarifs</a> 
+            <a class="btn btn-avs" href="http://avs-pro.fr/tarifs.php">Voir les tarifs</a> 
     </div>
   </div>
 </div>
@@ -89,6 +88,7 @@
     <div class="col-md-4">
       <h3>Informations utiles</h3>
       <p class="contact-society">La société AVS existe depuis 2005 et exerce dans le secteur de l'Eure-et-Loir et des Yvelines. Elle s'adapte à vos besoins et établit avec vous une relation de confiance.</p>
+      <br>
       <p class="contact-numbers">Pour toute demande, contactez nous au <strong>06.50.48.91.86</strong> ou par email <strong><a href="mailto:contact@avs-pro.fr">contact@avs-pro.fr</a></strong></p>
       <br>
       <p class="contact-numbers"><strong>À VOTRE SERVICE</strong>

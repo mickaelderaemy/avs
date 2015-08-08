@@ -1,21 +1,3 @@
-<!doctype>
-
-<html>
-
-<header>
-<meta charset="utf-8">
-<title>À votre service | AVS</title>
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/style.css">
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-<script language="javascript" type="text/javascript" src="js/bootstrap.js"></script>
-</header>
-
-<body>
-
 <?php include("header.php"); ?>
 
 <div class="container-fluid who">
@@ -44,7 +26,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-2 col-md-offset-1">
-			<img class="img-responsive" src="images/step1.png">
+			<img class="img-responsive img-who" src="images/step1.png">
 		</div>
 		<div class="col-md-8">
 			<h3>1. Étude de vos besoins & Établissement d'un devis personnalisé</h3>
@@ -53,7 +35,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-2 col-md-offset-1">
-			<img class="img-responsive" src="images/step2.png">
+			<img class="img-responsive img-who" src="images/step2.png">
 		</div>
 		<div class="col-md-8">
 			<h3>2. Validation du devis & Prise de rendez-vous</h3>
@@ -62,7 +44,7 @@
 	</div>	
 	<div class="row">
 		<div class="col-md-2 col-md-offset-1">
-			<img class="img-responsive" src="images/step3.png">
+			<img class="img-responsive img-who" src="images/step3.png">
 		</div>
 		<div class="col-md-8">
 			<h3>3. Réalisation de la prestation</h3>

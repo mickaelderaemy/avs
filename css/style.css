@@ -4,7 +4,7 @@
 body {
 	font-family: "Open Sans", arial, sans-serif;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 300;
 	color: #666;
 	text-align: justify;
 }
@@ -33,21 +33,22 @@ a:hover {
 
 h1 {
 	font-family: "Open Sans", arial, sans-serif;
-	font-size: 32px;
-	font-weight: 700;
+	font-size: 24px;
+	font-weight: 300;
 	color: white;
 }
 
 h2 {
-	font-size: 28px;
-	font-weight: 400;
-	color: #880E95;
+	font-size: 25px;
+	font-weight: 700;
+	color: #404040;
+	padding: 5px 0px 5px 0px;
 }
 
 h3 {
 	font-size: 25px;
-	font-weight: 300;
-	color: #444;
+	font-weight: 400;
+	color: #404040;
 }
 
 @font-face {
@@ -96,10 +97,6 @@ h3 {
 	background-size: cover;
 }
 
-.header-call {
-	margin-top: 100px;
-}
-
 .header-call-avs-grey {
 	font-size: 55px;
 	font-weight: 700;
@@ -118,7 +115,7 @@ h3 {
 	font-family: 'Androgyne_TB', arial, sans-serif;
 	font-weight: 300; 
 	font-size: 45px;
-	padding: 20px 10px 20px 10px;
+	padding: 120px 10px 20px 10px;
 	text-align: center;
 	border-radius: 15px;
 }
@@ -250,10 +247,13 @@ h3 {
 }
 
 .who-title {
-	height: 100px;
-	padding-top: 5px;
+	height: 60px;
 	background-color: #7F2788;
 	text-align: center;
+}
+
+.who-title h1 {
+	margin-top: 15px;
 }
 
 .who-content {
@@ -273,6 +273,16 @@ h3 {
 	text-align: center;
 	margin-top: 25px;	
 	margin-bottom: 25px;
+}
+
+.img-who {
+	width: 120px;
+}
+
+.who h3 {
+	margin-top: 0px;
+	padding: 10px 0px 5px 0px;
+	text-align: left;
 }
 
 

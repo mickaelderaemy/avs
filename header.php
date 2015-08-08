@@ -1,3 +1,17 @@
+<!doctype>
+
+<html>
+
+<header>
+<meta charset="utf-8">
+<title>À votre service | AVS</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</header>
+
+<body>
+
 <nav class="navbar navbar-default">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
